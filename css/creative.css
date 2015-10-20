@@ -16,7 +16,7 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #d62a5;
+    border-color: #d62a5e;
     border-width: 3px;
 }
 
@@ -25,7 +25,7 @@ hr.light {
 }
 
 a {
-    color: #d62a5;
+    color: #d62a5e;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -52,7 +52,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #d62a5;
+    background-color: #d62a5e;
 }
 
 .bg-dark {
@@ -89,7 +89,7 @@ aside {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: #d62a5;
+    color: #d62a5e;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -107,12 +107,12 @@ aside {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #d62a5;
+    color: #d62a5e;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #d62a5!important;
+    color: #d62a5e!important;
     background-color: transparent;
 }
 
@@ -153,7 +153,7 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: #d62a5;
+        color: #d62a5e;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -168,7 +168,7 @@ aside {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #d62a5;
+        color: #d62a5e;
     }
 }
 
@@ -323,7 +323,7 @@ header .header-content .header-content-inner p {
 }
 
 .text-primary {
-    color: #d62a5;
+    color: #d62a5e;
 }
 
 .no-gutter > [class*=col-] {
@@ -397,9 +397,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #D62A5E;
+    border-color: #d62a5e;
     color: #fff;
-    background-color: #D62A5E;
+    background-color: #d62a5e;
 }
 
 .btn-primary:active,
@@ -426,12 +426,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #d62a5;
-    background-color: #d62a5;
+    border-color: #d62a5e;
+    background-color: #d62a5e;
 }
 
 .btn-primary .badge {
-    color: #d62a5;
+    color: #d62a5e;
     background-color: #fff;
 }
 

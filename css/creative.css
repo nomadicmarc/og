@@ -473,3 +473,17 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
+
+/* ~~~ CUSTOM HAPPYHUNT CSS ~~~ */
+
+.address p {
+    margin-bottom: 3px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #888;
+}
+
+.service-box img {
+    height: 70px;
+}

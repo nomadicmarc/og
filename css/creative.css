@@ -487,3 +487,22 @@ body {
 .service-box img {
     height: 70px;
 }
+
+.form-box {
+    max-width: 500px;
+}
+
+.help-block {
+    color: #fff;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.secondary {
+    border-color: #fff;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 400;
+}

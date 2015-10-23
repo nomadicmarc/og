@@ -123,7 +123,7 @@ aside {
 
 @media(min-width:768px) {
     .navbar-default {
-        border-color: rgba(255,255,255,.3);
+        border: none;
         background-color: transparent;
     }
 
@@ -488,7 +488,6 @@ body {
     height: 70px;
 }
 
-<<<<<<< HEAD
 .form-box {
     max-width: 500px;
 }
@@ -506,7 +505,8 @@ body {
 label {
     font-size: 16px;
     font-weight: 400;
-=======
+}
+
 .howitworks-box {
     margin: 50px auto 0;
     max-width: 400px;
@@ -524,5 +524,4 @@ label {
 
 .howitworks-box img {
     height: 120px;
->>>>>>> d36afc677b24fb1f90c1955772e3be6732b5ef1c
 }

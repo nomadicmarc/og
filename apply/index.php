@@ -12,7 +12,7 @@ if(isset($_POST['submit'])){
     $headers = "From:" . $from;
     mail($to,$subject,$message,$headers); //send email to InternD
     $subject2 = "Thank you for submitting to Internd";
-    $message2 = "Thank you " . $first_name . " for submitting your application to Internd.\nWe will be in touch after reviewing your application.\n";
+    //$message2 = "Thank you " . $first_name . " for submitting your application to Internd.\nWe will be in touch after reviewing your application.\n";
     $headers2 = "From:" . $to;
     mail($from,$subject2,$message2,$headers2); // sends a receipt message to the sender
     echo "Application submitted. Thank you " . $first_name . ", we will contact you shortly.";
@@ -31,6 +31,7 @@ if(isset($_POST['submit'])){
     <meta name="author" content="">
 
     <title>InternD - Apply for Escort Internship</title>
+    <link rel="icon" type="image/png" href="../img/favicon.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -62,42 +63,12 @@ if(isset($_POST['submit'])){
 
 <body id="page-top">
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix">
         <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">InternD</a>
+                <a class="navbar-brand page-scroll" href="/goodbay/dev/og">InternD</a>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                     <li>
-                        <a class="page-scroll" href="#howitworks">How it Works</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Our Interns</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
     </nav>
 
 

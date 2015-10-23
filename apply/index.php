@@ -66,7 +66,7 @@ if(isset($_POST['submit'])){
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand page-scroll" href="/goodbay/dev/og">InternD</a>
+                <a class="navbar-brand page-scroll" href="/dev/og">InternD</a>
             </div>
         </div>
     </nav>

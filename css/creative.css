@@ -487,3 +487,22 @@ body {
 .service-box img {
     height: 70px;
 }
+
+.howitworks-box {
+    margin: 50px auto 0;
+    max-width: 400px;
+}
+
+@media(min-width:992px) {
+    .howitworks-box {
+        margin: 20px auto 0;
+    }
+}
+
+.howitworks-box p {
+    margin-bottom: 0;
+}
+
+.howitworks-box img {
+    height: 120px;
+}

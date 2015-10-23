@@ -488,6 +488,7 @@ body {
     height: 70px;
 }
 
+<<<<<<< HEAD
 .form-box {
     max-width: 500px;
 }
@@ -505,4 +506,23 @@ body {
 label {
     font-size: 16px;
     font-weight: 400;
+=======
+.howitworks-box {
+    margin: 50px auto 0;
+    max-width: 400px;
+}
+
+@media(min-width:992px) {
+    .howitworks-box {
+        margin: 20px auto 0;
+    }
+}
+
+.howitworks-box p {
+    margin-bottom: 0;
+}
+
+.howitworks-box img {
+    height: 120px;
+>>>>>>> d36afc677b24fb1f90c1955772e3be6732b5ef1c
 }

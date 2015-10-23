@@ -488,6 +488,25 @@ body {
     height: 70px;
 }
 
+<<<<<<< HEAD
+.form-box {
+    max-width: 500px;
+}
+
+.help-block {
+    color: #fff;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.secondary {
+    border-color: #fff;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 400;
+=======
 .howitworks-box {
     margin: 50px auto 0;
     max-width: 400px;
@@ -505,4 +524,5 @@ body {
 
 .howitworks-box img {
     height: 120px;
+>>>>>>> d36afc677b24fb1f90c1955772e3be6732b5ef1c
 }

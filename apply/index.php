@@ -63,7 +63,7 @@ if(isset($_POST['submit'])){
     <nav class="navbar navbar-default navbar-fixed-top affix">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="/dev/og">InternD</a>
+                <a class="navbar-brand" href="../index.html">InternD</a>
             </div>
         </div>
     </nav>
